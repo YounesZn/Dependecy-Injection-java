@@ -6,55 +6,52 @@ This repository contains an example project demonstrating dependency injection i
 
 The project is structured as follows:
 
-├── Dependecy-Injection.iml
-├── config.txt
-├── pom.xml
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── CONFIG
-│   │   │   ├── DAO
-│   │   │   │   ├── DaoImpl.java
-│   │   │   │   └── IDao.java
-│   │   │   ├── EXTENSION
-│   │   │   │   └── DaoImpl2.java
-│   │   │   ├── METIER
-│   │   │   │   ├── Imetier.java
-│   │   │   │   └── MetierImpl.java
-│   │   │   └── Presentation
-│   │   │       ├── Pres.java
-│   │   │       ├── PresVspring.java
-│   │   │       └── PresVspringAnnot.java
-│   │   └── resources
-│   │       └── applicationContext.xml
-│   └── test
-│       └── java
-└── target
-    ├── classes
-    │   ├── DAO
-    │   │   ├── DaoImpl.class
-    │   │   └── IDao.class
-    │   ├── EXTENSION
-    │   │   └── DaoImpl2.class
-    │   ├── METIER
-    │   │   ├── Imetier.class
-    │   │   └── MetierImpl.class
-    │   ├── Presentation
-    │   │   ├── Pres.class
-    │   │   ├── PresVspring.class
-    │   │   └── PresVspringAnnot.class
-    │   ├── applicationContext.xml
-    │   └── main
-    │       └── resources
-    │           └── applicationContext.xml
-    ├── generated-sources
-    │   └── annotations
-    └── maven-status
-        └── maven-compiler-plugin
-            └── compile
-                └── default-compile
-                    ├── createdFiles.lst
-                    └── inputFiles.lst
+- Dependecy-Injection.iml
+- config.txt
+- pom.xml
+- src
+  - main
+    - java
+      - CONFIG
+      - DAO
+        - DaoImpl.java
+        - IDao.java
+      - EXTENSION
+        - DaoImpl2.java
+      - METIER
+        - Imetier.java
+        - MetierImpl.java
+      - Presentation
+        - Pres.java
+        - PresVspring.java
+        - PresVspringAnnot.java
+    - resources
+      - applicationContext.xml
+  - test
+    - java
+- target
+  - classes
+    - DAO
+      - DaoImpl.class
+      - IDao.class
+    - EXTENSION
+      - DaoImpl2.class
+    - METIER
+      - Imetier.class
+      - MetierImpl.class
+    - Presentation
+      - Pres.class
+      - PresVspring.class
+      - PresVspringAnnot.class
+    - applicationContext.xml
+  - generated-sources
+    - annotations
+  - maven-status
+    - maven-compiler-plugin
+      - compile
+        - default-compile
+          - createdFiles.lst
+          - inputFiles.lst
 
 ## Part 1: Manual Dependency Injection
 
